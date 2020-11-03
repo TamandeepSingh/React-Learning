@@ -1,0 +1,42 @@
+.singleCard{
+    display: block;
+    width: 50%;
+    height: auto;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    background-color: rgb(121, 174, 209);
+    margin: auto;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.singleCard:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.inputs{
+    margin-bottom: 10px;
+}
+  
+button{
+    background-color: #282c34;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin:10px;
+}
+
+input[type=number] {
+    width: 50%;
+    padding: 5px;
+    margin: 8px;
+    box-sizing: border-box;
+  }
+
+button:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
